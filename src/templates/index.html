@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Consulta de países</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="light-mode">
+    <div class="container-principal">
+      <p class="app-info">Aplicación de consulta de lugares turísticos por países</p>
+      <div class="container-formulario">
+        <h1 class="title">Consulta Lugares Turísticos </h1>
+        <form class="form" action="{{ url_for('resultados') }}" method="GET">
+          <div class="form-group">
+            <label class="label" for="seleccion">Buscar por país:</label>
+            <select class="select" name="pais" id="pais">
+              <option value="">-- Selecciona un país --</option>
+              <option value="Alemania">Alemania</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Armenia">Armenia</option>
+              <option value="Austria">Austria</option>
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Belize">Belize</option>
+              <option value="Bolivia">Bolivia</option>
+              <option value="Bosnia y Herzegovina">Bosnia y Herzegovina</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Bulgaria">Bulgaria</option>
+              <option value="Camboya">Camboya</option>
+              <option value="Canada">Canada</option>
+              <option value="Chile">Chile</option>
+              <option value="China">China</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Corea del Norte">Corea del Norte</option>
+              <option value="Corea del Sur">Corea del Sur</option>
+              <option value="Costa Rica">Costa Rica</option>
+              <option value="Croacia">Croacia</option>
+              <option value="Ecuador">Ecuador</option>
+              <option value="Eslovenia">Eslovenia</option>
+              <option value="España">España</option>
+              <option value="Falkland Islands">Falkland Islands</option>
+              <option value="France">France</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Grecia">Grecia</option>
+              <option value="Guatemala">Guatemala</option>
+              <option value="Honduras">Honduras</option>
+              <option value="India">India</option>
+              <option value="Irak">Irak</option>
+              <option value="Irán">Irán</option>
+              <option value="Irlanda">Irlanda</option>
+              <option value="Italia">Italia</option>
+              <option value="Japón">Japón</option>
+              <option value="Kazajstán">Kazajstán</option>
+              <option value="Laos">Laos</option>
+              <option value="Luxemburgo">Luxemburgo</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="México">México</option>
+              <option value="Mongolia">Mongolia</option>
+              <option value="Myanmar">Myanmar</option>
+              <option value="Países Bajos">Países Bajos</option>
+              <option value="Pakistán">Pakistán</option>
+              <option value="United Kingdom">Reino Unido</option>
+              <option value="Panamá">Panamá</option>
+              <option value="Paraguay / Paraguái">Paraguay</option>
+              <option value="Perú">Perú</option>
+              <option value="Philippines">Filipinas</option>
+              <option value="Portugal">Portugal</option>
+              <option value="Rusia">Rusia</option>
+              <option value="Siria">Siria</option>
+              <option value="Tailandia">Tailandia</option>
+              <option value="Taiwán">Taiwán</option>
+              <option value="Túnez">Túnez</option>
+              <option value="Turquía">Turquía</option>
+              <option value="United States">USA</option>
+              <option value="Uruguay">Uruguay</option>
+              <option value="Vietnam">Vietnam</option>
+              <option value="Venezuela">Venezuela</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button class="button btn-consultar" type="submit">Consultar</button>
+          </div>          
+        </form>
+        <div class="github-linkedin-container">
+          <figure class="icon-figure">
+            <a href="https://github.com/martinushinahu">
+              <img class="icon-image" src="/static/img/icons8-github-64.png" alt="Github">
+            </a>
+          </figure>
+          <figure class="icon-figure">
+            <a href="https://www.linkedin.com/in/martin-ushi%C3%B1ahua-quinteros-/">
+              <img class="icon-image" src="/static/img/linkedin-icon.png" alt="LinkedIn">
+            </a>
+          </figure>
+        </div>     
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
