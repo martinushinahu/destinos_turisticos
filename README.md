@@ -1,9 +1,9 @@
-## 🌟 Aplicación de Consulta de Lugares Turísticos por Países
+## 🎯 Aplicación de Consulta de Lugares Turísticos por Países
 Esta aplicación te permite generar consultas de lugares turísticos por país. 
 Puedes buscar información sobre diferentes lugares turísticos en todo el mundo
 te brinda total de lugares turísticos por país y un mapa de su ubicación.
 
-## 🌟 Contenido
+## 🖥️  Contenido
 - "Esta aplicación fue desarrollado en Python y usando el framework Flask."
 - "Se usó API de OpenTripMap para obtener las coordenadas de los países a consultar."
 - "Se usó API de OSM para obtener el nombre de los países de acuerdo a sus coordenadas para que sean ingresado a la base de datos."
@@ -11,14 +11,17 @@ te brinda total de lugares turísticos por país y un mapa de su ubicación.
 - "Se aplicó Pandas para realizar el analisis de los datos, Json para guardar la data de los países, Mysql para la conexión con nuestra base de datos."
 - "Se aplicó tkinter para realizar una interfaz de prueba para la funcionalidad de nuestras consultas."
 
-## 🌟 Diseño de la Interfaz
+## 🛠️ Diseño de la Interfaz
 - Aquí se muestra el diseño de la app de consulta
+
 ![Image text](https://github.com/martinushinahu/destinos_turisticos/blob/636a42afb0297866796a553cb59a887e3f896e59/Analisis%20Tutisticos/imagenes_app/interfaz.png)
 
 - Escoges el país a seleccionar
+ 
 ![Image text](https://github.com/martinushinahu/destinos_turisticos/blob/master/Analisis%20Tutisticos/imagenes_app/interfaz2.png)
 
 - Y te muestra el resultados de acuerdo al país seleccionado, el resultado total y al costado la imgen del mapa donde se ubica dicho lugar
+
 ![Image text](https://github.com/martinushinahu/destinos_turisticos/blob/master/Analisis%20Tutisticos/imagenes_app/resultados.png)
 
 
@@ -37,5 +40,18 @@ te brinda total de lugares turísticos por país y un mapa de su ubicación.
     python app.py
     ```
 
+## 👥 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar esta aplicación o agregar nuevas características, sigue los siguientes pasos:
+
+1. Crea un fork de este repositorio.
+2. Crea una nueva rama para tus cambios.
+3. Realiza tus cambios y realiza commits descriptivos.
+4. Sube tus cambios a tu repositorio fork.
+5. Abre un pull request en este repositorio para revisar tus cambios.
+
+## 📜Licencia 📜 
+
+Este proyecto se encuentra bajo la [Licencia MIT](LICENSE). Consulta el archivo LICENSE para más detalles.
 
 
