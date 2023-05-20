@@ -24,9 +24,17 @@ te brinda total de lugares turísticos por país y un mapa de su ubicación.
 
 ## 🌟 Optención de los datos
 
+1. Clona este repositorio en tu máquina local:
     ```bash
-    puede revisar los pasos que se realizó para obterner los datos de los lugares turisticos de los países, la creación del DataFrame, la limpieza, la modificación de las columnas, el uso de nuestra conexión a nuestra base de datos y más
-https://github.com/martinushinahu/destinos_turisticos/blob/master/Analisis%20Tutisticos/data/analisis.ipynb
+    git clone https://github.com/martinushinahu/destinos_turisticos.git
+    ```
+2. Instala las dependencias necesarias
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Ejecute la Aplicación
+    ```bash
+    python app.py
     ```
 
 
