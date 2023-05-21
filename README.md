@@ -52,7 +52,7 @@ te brinda total de lugares turísticos por país y un mapa de su ubicación.
 
 ## 📜Licencia 📜 
 
-Este proyecto se encuentra bajo la [Licencia MIT](LICENCIA.txt). Consulta el archivo LICENCIA.txt para más detalles.
+Este proyecto se encuentra bajo la [Licencia MIT](LICENSE.txt). Consulta el archivo LICENSE para más detalles.
 
 
 
